@@ -1,0 +1,85 @@
+$date
+	Tue May 28 22:21:57 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module flip_flop_D_tb $end
+$var wire 1 ! q0 $end
+$var parameter 32 " DURATION $end
+$var reg 1 # clk0 $end
+$var reg 1 $ d0 $end
+$var integer 32 % i [31:0] $end
+$scope module UUT $end
+$var wire 1 $ D $end
+$var wire 1 # clk $end
+$var reg 1 ! Q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1010 "
+$end
+#0
+$dumpvars
+b0 %
+0$
+0#
+0!
+$end
+#50000
+1#
+#100000
+1!
+0#
+1$
+b1 %
+#150000
+1#
+#200000
+0#
+b10 %
+#250000
+1#
+#300000
+0#
+#350000
+1#
+#400000
+0#
+#450000
+1#
+#500000
+0#
+#550000
+1#
+#600000
+0#
+#650000
+1#
+#700000
+0#
+#750000
+1#
+#800000
+0#
+#850000
+1#
+#900000
+0#
+#950000
+1#
+#1000000
+0#
+#1050000
+1#
+#1100000
+0#
+#1150000
+1#
+#1200000
+0#

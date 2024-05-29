@@ -1,0 +1,113 @@
+$date
+	Tue May 28 23:25:02 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module xDFF_tb $end
+$var wire 1 ! q0 $end
+$var parameter 32 " DURATION $end
+$var reg 1 # clk0 $end
+$var reg 1 $ d0 $end
+$var reg 1 % ra0 $end
+$var reg 1 & rs0 $end
+$var reg 1 ' s0 $end
+$var integer 32 ( i [31:0] $end
+$scope module UUT $end
+$var wire 1 $ D0 $end
+$var wire 1 % Ra $end
+$var wire 1 & Rs $end
+$var wire 1 ' S $end
+$var wire 1 # clk0 $end
+$var wire 1 ) tmp_q0 $end
+$var reg 1 ! Q0 $end
+$scope module DFF0 $end
+$var wire 1 $ D $end
+$var wire 1 # clk $end
+$var reg 1 ) Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1010 "
+$end
+#0
+$dumpvars
+0)
+b0 (
+x'
+x&
+x%
+0$
+0#
+x!
+$end
+#50000
+0!
+1#
+#100000
+1)
+0#
+1$
+b1 (
+#150000
+1!
+1#
+#200000
+0#
+b10 (
+#250000
+1#
+#300000
+0#
+#350000
+1#
+#400000
+0!
+0#
+1%
+#450000
+1#
+#500000
+0#
+#550000
+1#
+#600000
+0#
+#650000
+1#
+#700000
+0#
+#750000
+1#
+#800000
+0#
+#850000
+1#
+#900000
+0#
+#950000
+1#
+#1000000
+0#
+#1050000
+1#
+#1100000
+0#
+#1150000
+1#
+#1200000
+0#
+#1250000
+1#
+#1300000
+0#
+#1350000
+1#
+#1400000
+0#
