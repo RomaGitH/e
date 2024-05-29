@@ -1,0 +1,220 @@
+$date
+	Wed May 29 10:52:40 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module SSBR_4_bits_tb $end
+$var wire 1 ! qr $end
+$var wire 1 " ql $end
+$var parameter 32 # DURATION $end
+$var reg 1 $ clk0 $end
+$var reg 1 % d0 $end
+$var reg 1 & dir $end
+$var reg 4 ' i_b [3:0] $end
+$var integer 32 ( i [31:0] $end
+$scope module UUT $end
+$var wire 1 % D $end
+$var wire 1 $ clk $end
+$var wire 1 & dir $end
+$var wire 1 ) tmp_q3 $end
+$var wire 1 * tmp_q2 $end
+$var wire 1 + tmp_q1 $end
+$var wire 1 , tmp_q0 $end
+$var wire 1 - mux_out3 $end
+$var wire 1 . mux_out2 $end
+$var wire 1 / mux_out1 $end
+$var wire 1 0 mux_out0 $end
+$var wire 1 ! QR $end
+$var wire 1 " QL $end
+$scope module DFF_0 $end
+$var wire 1 0 D $end
+$var wire 1 $ clk $end
+$var reg 1 , Q $end
+$upscope $end
+$scope module DFF_1 $end
+$var wire 1 / D $end
+$var wire 1 $ clk $end
+$var reg 1 + Q $end
+$upscope $end
+$scope module DFF_2 $end
+$var wire 1 . D $end
+$var wire 1 $ clk $end
+$var reg 1 * Q $end
+$upscope $end
+$scope module DFF_3 $end
+$var wire 1 - D $end
+$var wire 1 $ clk $end
+$var reg 1 ) Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1010 #
+$end
+#0
+$dumpvars
+00
+x/
+x.
+x-
+x,
+x+
+x*
+x)
+b0 (
+b100 '
+1&
+0%
+0$
+1"
+x!
+$end
+#50000
+1$
+#100000
+0/
+0,
+0$
+b1 (
+#150000
+1$
+#200000
+1/
+0.
+1,
+0+
+10
+0$
+1%
+b10 (
+#250000
+1$
+#300000
+0-
+1.
+0/
+0*
+1+
+0,
+00
+0$
+0%
+b11 (
+#350000
+1$
+#400000
+0"
+1/
+0+
+1*
+0)
+00
+0.
+1!
+0$
+0&
+b0 (
+#450000
+1$
+#500000
+0/
+1"
+10
+0*
+1+
+0$
+b1 (
+#550000
+1$
+#600000
+0"
+00
+1.
+1,
+0+
+1)
+1-
+0$
+1%
+b10 (
+#650000
+1$
+#700000
+0.
+1/
+0)
+1*
+0,
+0-
+0$
+0%
+b11 (
+#750000
+1$
+#800000
+1.
+1+
+0*
+0/
+0-
+1"
+0!
+0$
+1&
+b100 (
+#850000
+1$
+#900000
+1-
+0.
+1*
+0+
+0$
+#950000
+1$
+#1000000
+0-
+1!
+0*
+1)
+0$
+#1050000
+1$
+#1100000
+0!
+0)
+0$
+#1150000
+1$
+#1200000
+0$
+#1250000
+1$
+#1300000
+0$
+#1350000
+1$
+#1400000
+0$
+#1450000
+1$
+#1500000
+0$
+#1550000
+1$
+#1600000
+0$
+#1650000
+1$
+#1700000
+0$
+#1750000
+1$
+#1800000
+0$

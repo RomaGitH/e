@@ -5,7 +5,7 @@ module xDFF (
     input wire Ra,
     input wire S,
     input wire Rs,
-    
+    input wire en,
     output reg Q0
 );
 
@@ -26,8 +26,10 @@ always @(posedge clk0 or posedge Ra or posedge S) begin
         if (Rs) begin
             Q0 <= 0; // Synchronous reset
         end else begin
-            Q0 <= tmp_q0; // Normal operation
-        end
+            if (en) begin //enable 
+                 Q0 <= tmp_q0; // Normal operation     
+            end
+           end
     end
 end
 

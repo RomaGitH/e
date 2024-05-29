@@ -1,5 +1,5 @@
 $date
-	Tue May 28 23:25:02 2024
+	Wed May 29 08:28:06 2024
 $end
 $version
 	Icarus Verilog
@@ -12,22 +12,24 @@ $var wire 1 ! q0 $end
 $var parameter 32 " DURATION $end
 $var reg 1 # clk0 $end
 $var reg 1 $ d0 $end
-$var reg 1 % ra0 $end
-$var reg 1 & rs0 $end
-$var reg 1 ' s0 $end
-$var integer 32 ( i [31:0] $end
+$var reg 1 % en0 $end
+$var reg 1 & ra0 $end
+$var reg 1 ' rs0 $end
+$var reg 1 ( s0 $end
+$var integer 32 ) i [31:0] $end
 $scope module UUT $end
 $var wire 1 $ D0 $end
-$var wire 1 % Ra $end
-$var wire 1 & Rs $end
-$var wire 1 ' S $end
+$var wire 1 & Ra $end
+$var wire 1 ' Rs $end
+$var wire 1 ( S $end
 $var wire 1 # clk0 $end
-$var wire 1 ) tmp_q0 $end
+$var wire 1 % en $end
+$var wire 1 * tmp_q0 $end
 $var reg 1 ! Q0 $end
 $scope module DFF0 $end
 $var wire 1 $ D $end
 $var wire 1 # clk $end
-$var reg 1 ) Q $end
+$var reg 1 * Q $end
 $upscope $end
 $upscope $end
 $upscope $end
@@ -38,8 +40,9 @@ b1010 "
 $end
 #0
 $dumpvars
-0)
-b0 (
+0*
+b0 )
+x(
 x'
 x&
 x%
@@ -48,19 +51,17 @@ x%
 x!
 $end
 #50000
-0!
 1#
 #100000
-1)
+1*
 0#
 1$
-b1 (
+b1 )
 #150000
-1!
 1#
 #200000
 0#
-b10 (
+b10 )
 #250000
 1#
 #300000
@@ -68,17 +69,27 @@ b10 (
 #350000
 1#
 #400000
-0!
+0*
+1!
 0#
+0$
+b0 )
 1%
+0&
 #450000
+0!
 1#
 #500000
+1*
 0#
+1$
+b1 )
 #550000
+1!
 1#
 #600000
 0#
+b10 )
 #650000
 1#
 #700000
@@ -86,7 +97,9 @@ b10 (
 #750000
 1#
 #800000
+0!
 0#
+1&
 #850000
 1#
 #900000
@@ -110,4 +123,20 @@ b10 (
 #1350000
 1#
 #1400000
+0#
+#1450000
+1#
+#1500000
+0#
+#1550000
+1#
+#1600000
+0#
+#1650000
+1#
+#1700000
+0#
+#1750000
+1#
+#1800000
 0#
