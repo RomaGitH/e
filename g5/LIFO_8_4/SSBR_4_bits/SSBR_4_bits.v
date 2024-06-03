@@ -5,9 +5,7 @@ module SSBR_4_bits (
     input wire D,
     input wire dir,
     output wire QL,
-    output wire QR,
-    output wire full
-
+    output wire QR
 );
 
 wire tmp_q0;

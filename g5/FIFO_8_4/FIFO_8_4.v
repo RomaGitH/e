@@ -2,6 +2,7 @@
 
 module FIFO_8_4 (
     input wire clk,
+    
     input wire D
 );
 
